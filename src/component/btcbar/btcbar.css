@@ -1,0 +1,129 @@
+.btcbar-wrapper{
+     display: flex;
+    flex-direction: column;
+}
+.btcCurrency-wrap{
+    display: flex;
+    flex-direction: row;
+    gap: 6.5rem;
+    align-items: center;
+    padding-top: 1rem;
+    justify-content: center;
+    
+}
+.btcWrap{
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+    align-items: center;
+    margin-left: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+.btcIcon{
+    color: #FF971D;
+    font-size: 26px;
+}
+.btcText{
+    color: #7F8893;
+    font-size: 12px;
+    display: flex;
+    
+}
+.btcTextTwo{
+    color: #CAD1D8;
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btcFigure{
+    margin-left: 1.2rem;
+    margin-top: 0.3rem;
+    color: #8A929C;
+    font-size: 20px;
+    font-weight: 600;
+}
+.btcUsdWrapper{
+    display: flex;
+    flex-direction: row;
+    margin-left: 0.7rem; 
+    gap: 2.7rem;
+    margin-top: 0.3rem;
+    justify-content: center;
+    align-items: center;
+
+}
+.usd{
+    color: #B8C1CB;
+    font-size: 12px;
+}
+.btn-div button{
+    background-color: #EE225D;
+    color: #fff;
+    width: 4.5rem;
+    height: 1.7rem;
+    border-radius: 0.8rem;
+    border: none;
+    outline: none;
+}
+
+.dropdownArrowIcon{
+     display: flex;
+    justify-content: center;
+    align-items: center; 
+    font-size: 24px;
+    padding-bottom: 1rem;
+    color: #C6CDD5;
+    cursor: pointer;
+    
+}
+
+.dropdownWrapper{
+    position: relative;
+}
+
+
+.dropdownSubWrapper{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 1rem;
+  padding: 2rem;
+  position: absolute;
+  top: 5px;
+  margin-top: 0.9rem;
+  min-width: 160px;
+  border-radius: 0.5rem;
+  margin-left: -1rem;
+  cursor: pointer;
+  
+
+}
+
+.week{
+    border: 1px solid #AEB8C4;
+    width: 4rem;
+    height: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background-color: #AEB8C4;
+    border-radius: 0.9rem;
+}
+.week:hover{
+    background-color: #fff;
+    color: #AEB8C4;
+}
+.day{
+    color: #CAD1D9;
+}
+
+.month{
+    color: #CAD1D9;
+}
+.year{
+    color: #CAD1D9;
+}

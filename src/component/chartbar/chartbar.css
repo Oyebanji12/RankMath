@@ -1,0 +1,80 @@
+
+.chartWrapper{
+    margin-top: 0.6rem;
+}
+.circleOne {
+    width: 5px;
+    height: 5px;
+    background-color: #EF2755;
+    border-radius: 60%;
+  }
+  .circleTwo{
+    width: 5px;
+    height: 5px;
+    background-color: #1EC070;
+    border-radius: 60%;
+
+  }
+  .lowerHigherWrapper{
+    display: flex;
+    flex-direction: row;
+    gap: 1.9rem;
+    justify-content: center;
+    align-items: center;
+    margin: 0.9rem;
+  }
+  .sideOne{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 0.4rem;
+  }
+  .sideTwo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 0.4rem;
+  }
+ 
+  .textLower{
+    color: #EFEFF2;
+    font-size: 14px;
+  }
+  .textHigher{
+    color: #EFEFF2;
+    font-size: 14px;
+  }
+  
+  .circleThree{
+    width: 5px;
+    height: 5px;
+    background-color: #FFB433;
+    border-radius: 60%;
+  }
+  .btcstatisticSub{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+    margin: 1.5rem;
+  }
+  .btcStatisticWrapper{
+    background-color: #FFF7EE;
+    height: 4rem;
+    width: 12rem;
+    border: 1px solid #FFF7EE;
+    border-top-right-radius: 1rem;
+  }
+  .onebtcText{
+    color: #7B828B;
+    font-size: 12px;
+  }
+
+
+  
+  
+  
+  
+  

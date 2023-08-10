@@ -1,0 +1,92 @@
+.menubar-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px ;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  
+}
+.btc-wallet{
+  font-weight: bold;
+  color: #838C96;
+}
+.arrowIcon{
+    color: #AEB8C4;
+}
+.hamburgerIcon{
+    color: #E8EBEE;
+    cursor: pointer;
+}
+.hamburgerWrapper{
+  position: relative;
+}
+.menusubWrapper{
+    display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  flex-direction: column;
+  text-align: end;
+  background-color: #eaeaea;
+  padding: 2rem;
+  position: absolute;
+  top: 5px;
+  right: 0;
+  margin-top: 1rem;
+  min-width: 160px;
+  border-radius: 0.5rem;
+  
+}
+
+.edit{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+     gap: 7rem;
+    justify-content: center;
+    padding: 0.4rem;
+   
+}
+
+.courier{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+     gap: 3.7rem;
+    justify-content: center;
+    padding: 0.4rem;
+}
+.share{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+     gap: 6.5rem;
+    justify-content: center;
+    padding: 0.4rem;
+
+}
+.remove{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+     gap: 5.5rem;
+    justify-content: center;
+    padding: 0.4rem;
+
+}
+
+.line {
+    width: 95%;
+    height: 1.5px; 
+    background-color: #d8d8d8;
+    margin-top: 0.8rem;
+    
+  }
+  .menuSubText{
+    font-weight: 400;
+    
+  }
+  .menuSubIcon{
+    font-weight: 400;
+  }
